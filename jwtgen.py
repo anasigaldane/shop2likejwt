@@ -9,7 +9,7 @@ logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
 
 # Define the target API endpoint
-TARGET_API = "https://ff-token-generator.vercel.app/token"
+TARGET_API = "https://shop2likejwt.vercel.app/token"
 
 @app.route('/token', methods=['GET'])
 def get_token():
