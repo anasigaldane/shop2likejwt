@@ -1,0 +1,15 @@
+
+syntax = "proto3";
+
+package MajorLogin;
+
+message LoginRequest {
+    string guest_id = 1;
+    string device_id = 2;
+    string session_id = 3;
+}
+
+message LoginResponse {
+    string token = 1;
+    bool success = 2;
+}
