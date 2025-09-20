@@ -28,7 +28,7 @@ cache = Cache(app, config={'CACHE_TYPE': 'SimpleCache', 'CACHE_DEFAULT_TIMEOUT':
 
 def get_token(password, uid):
     try:
-        url = "https://clientbp.ggblueshark.com"
+        url = "https://clientbp.ggblueshark.com/token"
         headers = {
             "Host": "100067.connect.garena.com",
             "User-Agent": "GarenaMSDK/4.0.19P4(G011A ;Android 9;en;US;)",
